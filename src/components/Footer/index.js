@@ -5,17 +5,7 @@ import styles from "./index.css"
 const Footer = () => (
   <footer className={ styles.footer }>
     { /* If you like Phenomic, this is a way to share the love ;) */ }
-    <p>
-      <a
-        href={ process.env.PHENOMIC_HOMEPAGE }
-        className={ styles.phenomicReference }
-      >
-        { "Website generated with " }
-        <span className={ styles.phenomicReferenceName }>
-          {  `<${ process.env.PHENOMIC_NAME} />` }
-        </span>
-      </a>
-    </p>
+    <p>{"2017 - E. Frischknecht Umzüge | Treuackerstrasse 39, 9000 St. Gallen | 071 277 94 01"}</p>
   </footer>
 )
 
